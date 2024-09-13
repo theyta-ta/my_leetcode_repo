@@ -1,6 +1,11 @@
 # TIME: O(len(nums))
-# SPACE: O(1) - the algorithm can easily be extended to finding an
-# increasing n-tuple. in which case it is O(n)
+# SPACE: O(1)
+
+# the algorithm can easily be extended to finding an increasing k-tuple.
+# in which case it is
+# TIME: O(len(nums) log k)
+# SPACE: O(k)
+
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
         # i find thinking about this one to be easier when thinking
